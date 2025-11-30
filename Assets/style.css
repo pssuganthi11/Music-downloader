@@ -1,0 +1,111 @@
+:root {
+    --background: linear-gradient(to bottom right,
+            #240046 0%,
+            #3C096C 20%,
+            #7B2CBF 70%,
+            #240046 100%);
+
+}
+
+html,
+body {
+    height: 100%;
+    background: var(--background);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.nav-link:hover {
+    color: black !important;
+}
+
+.nav-link.active {
+    color: #ffff !important;
+}
+
+.heading-font {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.btn-font {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #fff !important;
+    background: linear-gradient(65deg, #3C096C, #7B2CBF, #240046);
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-font:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 20px rgba(123, 44, 191, 0.5);
+    border: 0.5px solid white;
+
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.accordion {
+
+    --bs-accordion-bg: none !important;
+}
+
+.accordion-item {
+    border: none !important;
+    border-radius: 30px !important;
+}
+
+.accordion-button {
+    background-color: #7B2CBF !important;
+    color: #f1f1f1;
+
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #7725c4 !important;
+    color: #fff !important;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body {
+    background-color: #7725c4 !important;
+    color: #fff !important;
+    box-shadow: none;
+}
+
+.text-info,
+.text-primary {
+    color: #ffff !important;
+}
+
+.form-control {
+    background: none;
+    outline: none;
+    color: #ffff !important;
+}
+
+.form-control:focus {
+    background: none;
+    outline: none;
+}
+.form-control:active{
+   background: none;
+    outline: none; 
+}
+
+@media (max-width: 576px) {
+    .carousel-item img {
+        height: 250px;
+    }
+}
