@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="icon" type="image/png" href="./Assets/waves.png">
     <link rel="stylesheet" href="./Assets//style.css">
-    <title>MP-3 Downloader</title>
+    <title>Pluse Loader</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
                     <a class="navbar-brand" href="#">
                         <img src="./Assets/logo1.webp" width="70" height="70" class="rounded-circle">
                     </a>
-                    <p class="h3 text-white">Mp-3 Downloader</p>
+                    <p class="h3 text-white">Pluse Loader</p>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -36,10 +36,14 @@
                                 <a class="nav-link fw-bolder fs-6" href="#features">Features</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fw-bolder fs-6" href="#document">Document</a>
+                                <a class="nav-link fw-bolder fs-6" href="#document">How to Install?</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link fw-bolder fs-6" href="#contactus">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bolder fs-6"
+                                    href="https:/github.com/anburocky3/tamil-mp3-downloader" target="_blank">GitHub</a>
                             </li>
                         </ul>
                     </div>
@@ -61,8 +65,10 @@
 
 
                         <div class="d-flex flex-column flex-lg-row gap-3 mt-4 ">
-                            <a href="#document" class="btn btn-font btn-lg px-4  ">Start Downloading</a>
-                            <a href="#" class="btn btn-font btn-lg px-4">Watch Demo</a>
+                            <a href="https://github.com/anburocky3/tamil-mp3-downloader/releases/latest/download/tamil-mp3-downloader-v2.0.0.exe"
+                                class="btn btn-font btn-lg px-4">Start Downloading</a>
+                            <a href="https:/github.com/anburocky3/tamil-mp3-downloader"
+                                class="btn btn-font btn-lg px-4">GitHub</a>
                         </div>
                     </div>
 
@@ -70,14 +76,14 @@
                         <div id="imageCarousel" class="carousel slide shadow rounded" data-bs-ride="carousel">
                             <div class="carousel-inner rounded">
                                 <div class="carousel-item ">
-                                    <img src="./Assets/girl.jpg" class="d-block w-100" alt="img">
+                                    <img src="./Assets/girl.jpg" class=" w-100" alt="img">
                                 </div>
                                 <div class="carousel-item ">
-                                    <img src="./Assets/wavecar.jpg" class="d-block w-100" alt="img">
+                                    <img src="./Assets/wavecar.jpg" class=" w-100" alt="img">
                                 </div>
 
                                 <div class="carousel-item active">
-                                    <img src="./Assets/headphone.jpg" class="d-block w-100" alt="img">
+                                    <img src="./Assets/headphone.jpg" class=" w-100" alt="img">
                                 </div>
 
                             </div>
@@ -98,10 +104,9 @@
             </div>
         </section>
         <section id="features" class="py-5">
-            <h2 class="fw-bold text-light mb-5 container ">Features</h2>
 
             <div class="container text-center">
-
+                <h1 class="fw-bold text-light container ">Features</h1>
                 <h2 class="fw-bold text-light mb-4">Powerful Features Built for You</h2>
                 <p class="text-light mb-5">
                     Fast, clean, and packed with everything you need for an amazing music-downloading experience.
@@ -148,7 +153,7 @@
 
                         <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                             <div class="card feature-card h-100 d-flex flex-column">
-                                <img src="assets/oldsong.jpg" loading="lazy" class="card-img-top object-fit-cover"
+                                <img src="assets/Oldsongimage.jpg" loading="lazy" class="card-img-top object-fit-cover"
                                     alt="img" height="400">
                                 <div class="card-body">
                                     <p class="h3">Old songs</p>
@@ -188,72 +193,84 @@
         </section>
         <section id="document" class="py-5">
             <div class="container">
-                <h2 class="fw-bold text-light mb-5">How to Install</h2>
+                <h2 class="fw-bold text-light mb-5">Documentation</h2>
 
                 <div class="row align-items-start">
                     <div class="col-lg-8 col-12">
                         <div class="row gy-4">
-                            <div class="col-12 d-flex">
-                                <div class="me-3">
-                                    <i class="bi bi-download fs-1 text-info"></i>
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold text-light">1. Download the Installer</h5>
-                                    <p class="text-light opacity-75 mb-0">
-                                        Click the download button to get the installer file.
-                                    </p>
-                                </div>
+                            <div class="col-12">
+                                <h5 class="fw-bold text-light">How to use this script?</h5>
+                                <p class="text-light opacity-75 mb-3">
+                                    Clone this repository and open Terminal & go to this directory using:
+                                </p>
+                                <pre class="bg-dark text-light p-3 rounded-3"><code>git clone &lt;repository-url&gt;
+cd tamil-mp3-downloader</code></pre>
                             </div>
 
-                            <div class="col-12 d-flex">
-                                <div class="me-3">
-                                    <i class="bi bi-file-earmark-arrow-up fs-1 text-primary"></i>
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold text-light">2. Run the Installer File</h5>
-                                    <p class="text-light opacity-75 mb-0">
-                                        Locate the downloaded file and double-click to start.
-                                    </p>
-                                </div>
+                            <div class="col-12">
+                                <h5 class="fw-bold text-light">Requirements</h5>
+                                <p class="text-light opacity-75 mb-2">
+                                    Ensure you have Python 3+ installed. Check by running:
+                                </p>
+                                <pre class="bg-dark text-light p-3 rounded-3"><code>python -v  # prints python version
+pip -v     # checks if pip is installed</code></pre>
+                                <p class="text-light opacity-75 mb-2">If Python is not installed, install it (refer to
+                                    Step 2 of installation guide).</p>
                             </div>
 
-                            <div class="col-12 d-flex">
-                                <div class="me-3">
-                                    <i class="bi bi-ui-checks fs-1 text-info"></i>
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold text-light">3. Follow On-Screen Prompts</h5>
-                                    <p class="text-light opacity-75 mb-0">
-                                        Accept the terms and choose your installation location.
-                                    </p>
-                                </div>
+                            <div class="col-12">
+                                <h5 class="fw-bold text-light">Install Dependencies</h5>
+                                <pre
+                                    class="bg-dark text-light p-3 rounded-3"><code>pip install -r requirements.txt</code></pre>
                             </div>
 
-                            <div class="col-12 d-flex">
-                                <div class="me-3">
-                                    <i class="bi bi-rocket-takeoff fs-1 text-primary"></i>
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold text-light">4. Launch the Application</h5>
-                                    <p class="text-light opacity-75 mb-0">
-                                        Find the app icon on your desktop or start menu.
-                                    </p>
+                            <div class="col-12">
+                                <h5 class="fw-bold text-light">Run the Python Script</h5>
+                                <pre class="bg-dark text-light p-3 rounded-3"><code>python main-classic.py</code></pre>
+                            </div>
+                            <h5 class="fw-bold text-light">installation Screenshot</h5>
+
+                            <div id="installCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner rounded-3">
+                                    <div class="carousel-item active">
+                                        <img src="./Assets/1.png" class="d-block w-100 object-fit-contain  rounded-3"
+                                            alt="Screenshot 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./Assets/2.png" class="d-block w-100 object-fit-contain  rounded-3"
+                                            alt="Screenshot 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./Assets/3.png" class="d-block w-100 object-fit-contain  rounded-3"
+                                            alt="Screenshot 3">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./Assets/4.png" class="d-block w-100 object-fit-contain  rounded-3"
+                                            alt="Screenshot 4">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./Assets/5.png" class="d-block w-100 object-fit-contain  rounded-3"
+                                            alt="Screenshot 5">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./Assets/6.png" class="d-block w-100 object-fit-contain  rounded-3"
+                                            alt="Screenshot 6">
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#installCarousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#installCarousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-12 mt-4 mt-lg-0 d-flex flex-column align-items-start gap-3">
-                        <a class="btn btn-font w-100 py-3 fw-bold" href="#">
-                            Download Apk
-                        </a>
-                        <a class="btn btn-font w-100 py-3 fw-bold" href="#">
-                            Playstore
-                        </a>
-                    </div>
                 </div>
-            </div>
         </section>
+
         <section id="faq" class="py-5 container">
             <h2 class="fw-bold text-light mb-5">Troubleshooting & FAQ</h2>
 
@@ -306,18 +323,13 @@
             </div>
         </section>
         <section id="contactus" class="py-5">
-            <div class="container-md">
-
-                <h2 class="fw-bold text-light mb-2">Contact Us</h2>
-
+            <div class="container-md ">
+                <h2 class="fw-bold text-light  text-center ">Contact Us</h2>
                 <p class="text-lg-center mt-4 pt-4 text-light">
                     Have questions or need support? Send us a message and we’ll get back to you as soon as possible.
                 </p>
-
                 <div class="row justify-content-center">
-
                     <div class="col-lg-6 col-md-8 col-12">
-
                         <form class="p-4 rounded-4 shadow-lg">
 
                             <div class="mb-3">
@@ -352,10 +364,6 @@
         </footer>
 
     </div>
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>

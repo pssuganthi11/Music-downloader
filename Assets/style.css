@@ -33,7 +33,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     color: #fff !important;
-    background: linear-gradient(65deg, #3C096C, #7B2CBF, #240046);
+    background-color: #240046;
     border-radius: 8px;
     transition: 0.3s ease-in-out;
 }
@@ -97,11 +97,18 @@ body {
 
 .form-control:focus {
     background: none;
-    outline: none;
+    outline: none !important;
+    box-shadow: none !important;
+
 }
 .form-control:active{
    background: none;
     outline: none; 
+}
+
+::placeholder {
+    color: #bbb !important; 
+    opacity: 1; 
 }
 
 @media (max-width: 576px) {
